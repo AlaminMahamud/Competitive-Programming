@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>BigInteger</id>
+    <version>1.0.6.32395</version>
+    <title>BigInteger</title>
+    <authors>Vasily Sidorov (bazzilic) / Nanyang Technological University</authors>
+    <owners>Vasily Sidorov (bazzilic) / Nanyang Technological University</owners>
+    <licenseUrl>https://github.com/bazzilic/BigInteger/blob/master/README.md</licenseUrl>
+    <projectUrl>https://github.com/bazzilic/BigInteger</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BigInteger class implementation for C#.</description>
+    <summary />
+    <tags>Big Integer BigInteger</tags>
+  </metadata>
+</package>

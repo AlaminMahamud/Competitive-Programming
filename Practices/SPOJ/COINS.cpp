@@ -74,37 +74,54 @@ typedef unsigned long int uint32;
 typedef long long int int64;
 typedef unsigned long long int  uint64;
 
-long long t[1000000048];
-bool flag[1000000048];
+map<int, unsigned long int> mymap;
+map<int, bool> flag;
 
-long long init(int n){
-  ll n2,n3,n4;
-  
-  if(!flag[n/2]) n2 = init(n/2);
-  else n2 = t[n/2];
-  if(!flag[n/3]) n3 = init(n/3);
-  else n3 = t[n/3];
-  if(!flag[n/4]) n4 = init(n/4);
-  else n4 = t[n/4];
-
-  long long sum = n2+./n3+n4;
-
-  if(sum<n) {t[n] = n; flag[n] = true; return n;}
-  else {t[n] = sum; flag[n] = true; return sum;}
-
+unsigned long int solve(unsigned long int n){
+  if(flag.at(n))
+    return mymap.at(n);
+  else if(n<12){
+    flag.at(n) = true;
+    mymap.at(n) = n;
+    return n;
+  }else{
+    unsigned long int n2=(n/2), n3=(n/3),n4=(n/4),sum=0;
+    if(flag.at(n2))
+      n2 = mymap.at(n2);
+    else
+    {
+      n2 = solve(n2);
+    }
+    if(flag.at(n3))
+      n3 = mymap.at(n3);
+    else
+    {
+      n3 = solve(n3);
+    }
+    if(flag.at(n4))
+      n4 = mymap.at(n4);
+    else
+    {
+      n4 = solve(n4);
+    }
+    sum = n2 + n3 + n4;
+    if(sum<n){
+      flag.at(n) = true;
+      mymap.at(n) = n;
+      return n;
+    }else{
+      flag.at(n) = true;
+      mymap.at(n) = sum;
+      return sum;
+    }
+  }
 }
 
 /********** Main()  function **********/
 int main(){
-  for(int i=0; i<4;i++){
-    t[i] = i;
-    flag[i] = true;
-  }
   int n;
   cin>>n;
-  init(n);
-  cout<< t[n] <<endl;
-
+  cout <<  solve(n) << endl;
   return 0;
 }
 /********  Main() Ends Here *************/

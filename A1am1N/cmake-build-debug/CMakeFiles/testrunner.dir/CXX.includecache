@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hello/Desktop/alamin/A1am1N/tasks/TaskB.cpp
+bits/stdc++.h
+-
+
+/home/hello/Desktop/alamin/A1am1N/testrunner/main.cpp
+/home/hello/Desktop/alamin/A1am1N/tasks/TaskB.cpp
+-
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+vector
+-
+cctype
+-
+ctime
+-
+

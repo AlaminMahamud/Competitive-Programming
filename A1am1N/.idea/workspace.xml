@@ -36,7 +36,7 @@
     <favorites_list name="jhelper-example-project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,8 +47,10 @@
         <option value="$PROJECT_DIR$/testrunner/main.cpp" />
         <option value="$PROJECT_DIR$/submission.template" />
         <option value="$PROJECT_DIR$/tasks/TaskB.cpp" />
-        <option value="$PROJECT_DIR$/output/main.cpp" />
         <option value="$PROJECT_DIR$/task.template" />
+        <option value="$PROJECT_DIR$/tasks/136A.cpp" />
+        <option value="$PROJECT_DIR$/tasks/T136A.cpp" />
+        <option value="$PROJECT_DIR$/output/main.cpp" />
       </list>
     </option>
   </component>
@@ -59,10 +61,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="116" />
-    <option name="width" value="1368" />
-    <option name="height" value="769" />
+    <option name="x" value="683" />
+    <option name="width" value="668" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -132,7 +133,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
   </component>
-  <component name="RunManager" selected="Task.F - Santa Clauses and a Soccer Championship">
+  <component name="RunManager" selected="Unknown.136A1725421919">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="A1am1N" TARGET_NAME="output" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -193,9 +194,6 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/.task">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -319,19 +317,11 @@
       <envs />
       <method />
     </configuration>
-    <list size="12">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.test" />
-      <item index="2" class="java.lang.String" itemvalue="Task.Task" />
-      <item index="3" class="java.lang.String" itemvalue="Application.output" />
-      <item index="4" class="java.lang.String" itemvalue="Task.B - Worms" />
-      <item index="5" class="java.lang.String" itemvalue="Application.testrunner" />
-      <item index="6" class="java.lang.String" itemvalue="Task.A - Santa Claus and a Place in a Class" />
-      <item index="7" class="java.lang.String" itemvalue="Task.B - Santa Claus and Keyboard Check" />
-      <item index="8" class="java.lang.String" itemvalue="Task.C - Santa Claus and Robot" />
-      <item index="9" class="java.lang.String" itemvalue="Task.D - Santa Claus and a Palindrome" />
-      <item index="10" class="java.lang.String" itemvalue="Task.E - Santa Claus and Tangerines" />
-      <item index="11" class="java.lang.String" itemvalue="Task.F - Santa Clauses and a Soccer Championship" />
+      <item index="2" class="java.lang.String" itemvalue="Application.output" />
+      <item index="3" class="java.lang.String" itemvalue="Application.testrunner" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -348,11 +338,16 @@
       <workItem from="1482743416739" duration="1708000" />
       <workItem from="1482763963272" duration="1185000" />
       <workItem from="1482778874732" duration="164000" />
+      <workItem from="1482779311849" duration="77000" />
+      <workItem from="1482908175059" duration="689000" />
+      <workItem from="1482921100735" duration="131000" />
+      <workItem from="1482921244348" duration="49000" />
+      <workItem from="1482921305374" duration="154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3073000" />
+    <option name="totallyTimeSpent" value="4173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,12 +359,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="116" width="1368" height="769" extended-state="6" />
+    <frame x="683" y="0" width="668" height="768" extended-state="4" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12137007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36858475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3268921" sideWeight="0.49367088" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3268921" sideWeight="0.49367088" order="7" side_tool="false" content_ui="tabs" x="684" y="410" width="682" height="358" />
       <window_info id="TagMyCode" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.5063291" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -430,6 +425,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/lib.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -440,31 +442,14 @@
     <entry file="file://$PROJECT_DIR$/output/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -487,22 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -510,53 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/Task.cpp" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/lib.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,22 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,22 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,22 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,22 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,33 +629,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/tasks/TaskA.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskB.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskC.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskD.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskE.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/A - Santa Claus and a Place in a Class.task" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskF.cpp" />
+    <entry file="file://$PROJECT_DIR$/task.template">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#7636#7645#0" expanded="false" />
-            <element signature="e#7707#7719#0" expanded="false" />
-            <element signature="e#7773#7782#0" expanded="false" />
-            <element signature="e#7895#7904#0" expanded="false" />
-            <element signature="e#8031#8040#0" expanded="false" />
-            <element signature="e#8159#8168#0" expanded="false" />
-            <element signature="e#8301#8310#0" expanded="false" />
-            <element signature="e#8435#8444#0" expanded="false" />
-            <element signature="e#8552#8561#0" expanded="false" />
-            <element signature="e#8644#8653#0" expanded="false" />
-            <element signature="e#8735#8744#0" expanded="false" />
-            <element signature="e#8826#8835#0" expanded="false" />
-            <element signature="e#9247#9276#0" expanded="false" />
-            <element signature="e#9368#9398#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="122">
+          <caret line="389" column="90" lean-forward="true" selection-start-line="389" selection-start-column="90" selection-end-line="389" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -813,66 +650,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskA.cpp">
+    <entry file="file://$PROJECT_DIR$/tasks/136A.task" />
+    <entry file="file://$PROJECT_DIR$/tasks/136A.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/T136A.cpp" />
+    <entry file="file://$PROJECT_DIR$/output/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="281" column="53" lean-forward="false" selection-start-line="281" selection-start-column="53" selection-end-line="281" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="74">
+          <caret line="408" column="1" lean-forward="true" selection-start-line="408" selection-start-column="1" selection-end-line="408" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskB.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4215">
-          <caret line="281" column="53" lean-forward="false" selection-start-line="281" selection-start-column="53" selection-end-line="281" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskC.cpp">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4215">
-          <caret line="281" column="53" lean-forward="false" selection-start-line="281" selection-start-column="53" selection-end-line="281" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskD.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4215">
-          <caret line="281" column="53" lean-forward="false" selection-start-line="281" selection-start-column="53" selection-end-line="281" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskE.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4215">
-          <caret line="281" column="53" lean-forward="false" selection-start-line="281" selection-start-column="53" selection-end-line="281" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/A - Santa Claus and a Place in a Class.task">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task.template">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskF.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="75" lean-forward="false" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>

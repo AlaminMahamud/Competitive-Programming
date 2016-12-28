@@ -182,22 +182,7 @@
 		<Unit filename="/home/hello/Desktop/alamin/A1am1N/output/main.cpp">
 			<Option target="output"/>
 		</Unit>
-		<Unit filename="/home/hello/Desktop/alamin/A1am1N/tasks/TaskA.cpp">
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/home/hello/Desktop/alamin/A1am1N/tasks/TaskB.cpp">
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/home/hello/Desktop/alamin/A1am1N/tasks/TaskC.cpp">
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/home/hello/Desktop/alamin/A1am1N/tasks/TaskD.cpp">
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/home/hello/Desktop/alamin/A1am1N/tasks/TaskE.cpp">
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/home/hello/Desktop/alamin/A1am1N/tasks/TaskF.cpp">
+		<Unit filename="/home/hello/Desktop/alamin/A1am1N/tasks/T136A.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/hello/Desktop/alamin/A1am1N/testrunner/main.cpp">

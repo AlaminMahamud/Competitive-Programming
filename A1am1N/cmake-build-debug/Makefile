@@ -176,167 +176,32 @@ output/main.cpp.s:
 	$(MAKE) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/output/main.cpp.s
 .PHONY : output/main.cpp.s
 
-tasks/TaskA.o: tasks/TaskA.cpp.o
+tasks/T136A.o: tasks/T136A.cpp.o
 
-.PHONY : tasks/TaskA.o
-
-# target to build an object file
-tasks/TaskA.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskA.cpp.o
-.PHONY : tasks/TaskA.cpp.o
-
-tasks/TaskA.i: tasks/TaskA.cpp.i
-
-.PHONY : tasks/TaskA.i
-
-# target to preprocess a source file
-tasks/TaskA.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskA.cpp.i
-.PHONY : tasks/TaskA.cpp.i
-
-tasks/TaskA.s: tasks/TaskA.cpp.s
-
-.PHONY : tasks/TaskA.s
-
-# target to generate assembly for a file
-tasks/TaskA.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskA.cpp.s
-.PHONY : tasks/TaskA.cpp.s
-
-tasks/TaskB.o: tasks/TaskB.cpp.o
-
-.PHONY : tasks/TaskB.o
+.PHONY : tasks/T136A.o
 
 # target to build an object file
-tasks/TaskB.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.o
-.PHONY : tasks/TaskB.cpp.o
+tasks/T136A.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/T136A.cpp.o
+.PHONY : tasks/T136A.cpp.o
 
-tasks/TaskB.i: tasks/TaskB.cpp.i
+tasks/T136A.i: tasks/T136A.cpp.i
 
-.PHONY : tasks/TaskB.i
-
-# target to preprocess a source file
-tasks/TaskB.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.i
-.PHONY : tasks/TaskB.cpp.i
-
-tasks/TaskB.s: tasks/TaskB.cpp.s
-
-.PHONY : tasks/TaskB.s
-
-# target to generate assembly for a file
-tasks/TaskB.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.s
-.PHONY : tasks/TaskB.cpp.s
-
-tasks/TaskC.o: tasks/TaskC.cpp.o
-
-.PHONY : tasks/TaskC.o
-
-# target to build an object file
-tasks/TaskC.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskC.cpp.o
-.PHONY : tasks/TaskC.cpp.o
-
-tasks/TaskC.i: tasks/TaskC.cpp.i
-
-.PHONY : tasks/TaskC.i
+.PHONY : tasks/T136A.i
 
 # target to preprocess a source file
-tasks/TaskC.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskC.cpp.i
-.PHONY : tasks/TaskC.cpp.i
+tasks/T136A.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/T136A.cpp.i
+.PHONY : tasks/T136A.cpp.i
 
-tasks/TaskC.s: tasks/TaskC.cpp.s
+tasks/T136A.s: tasks/T136A.cpp.s
 
-.PHONY : tasks/TaskC.s
-
-# target to generate assembly for a file
-tasks/TaskC.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskC.cpp.s
-.PHONY : tasks/TaskC.cpp.s
-
-tasks/TaskD.o: tasks/TaskD.cpp.o
-
-.PHONY : tasks/TaskD.o
-
-# target to build an object file
-tasks/TaskD.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskD.cpp.o
-.PHONY : tasks/TaskD.cpp.o
-
-tasks/TaskD.i: tasks/TaskD.cpp.i
-
-.PHONY : tasks/TaskD.i
-
-# target to preprocess a source file
-tasks/TaskD.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskD.cpp.i
-.PHONY : tasks/TaskD.cpp.i
-
-tasks/TaskD.s: tasks/TaskD.cpp.s
-
-.PHONY : tasks/TaskD.s
+.PHONY : tasks/T136A.s
 
 # target to generate assembly for a file
-tasks/TaskD.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskD.cpp.s
-.PHONY : tasks/TaskD.cpp.s
-
-tasks/TaskE.o: tasks/TaskE.cpp.o
-
-.PHONY : tasks/TaskE.o
-
-# target to build an object file
-tasks/TaskE.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskE.cpp.o
-.PHONY : tasks/TaskE.cpp.o
-
-tasks/TaskE.i: tasks/TaskE.cpp.i
-
-.PHONY : tasks/TaskE.i
-
-# target to preprocess a source file
-tasks/TaskE.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskE.cpp.i
-.PHONY : tasks/TaskE.cpp.i
-
-tasks/TaskE.s: tasks/TaskE.cpp.s
-
-.PHONY : tasks/TaskE.s
-
-# target to generate assembly for a file
-tasks/TaskE.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskE.cpp.s
-.PHONY : tasks/TaskE.cpp.s
-
-tasks/TaskF.o: tasks/TaskF.cpp.o
-
-.PHONY : tasks/TaskF.o
-
-# target to build an object file
-tasks/TaskF.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskF.cpp.o
-.PHONY : tasks/TaskF.cpp.o
-
-tasks/TaskF.i: tasks/TaskF.cpp.i
-
-.PHONY : tasks/TaskF.i
-
-# target to preprocess a source file
-tasks/TaskF.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskF.cpp.i
-.PHONY : tasks/TaskF.cpp.i
-
-tasks/TaskF.s: tasks/TaskF.cpp.s
-
-.PHONY : tasks/TaskF.s
-
-# target to generate assembly for a file
-tasks/TaskF.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskF.cpp.s
-.PHONY : tasks/TaskF.cpp.s
+tasks/T136A.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/T136A.cpp.s
+.PHONY : tasks/T136A.cpp.s
 
 testrunner/main.o: testrunner/main.cpp.o
 
@@ -379,24 +244,9 @@ help:
 	@echo "... output/main.o"
 	@echo "... output/main.i"
 	@echo "... output/main.s"
-	@echo "... tasks/TaskA.o"
-	@echo "... tasks/TaskA.i"
-	@echo "... tasks/TaskA.s"
-	@echo "... tasks/TaskB.o"
-	@echo "... tasks/TaskB.i"
-	@echo "... tasks/TaskB.s"
-	@echo "... tasks/TaskC.o"
-	@echo "... tasks/TaskC.i"
-	@echo "... tasks/TaskC.s"
-	@echo "... tasks/TaskD.o"
-	@echo "... tasks/TaskD.i"
-	@echo "... tasks/TaskD.s"
-	@echo "... tasks/TaskE.o"
-	@echo "... tasks/TaskE.i"
-	@echo "... tasks/TaskE.s"
-	@echo "... tasks/TaskF.o"
-	@echo "... tasks/TaskF.i"
-	@echo "... tasks/TaskF.s"
+	@echo "... tasks/T136A.o"
+	@echo "... tasks/T136A.i"
+	@echo "... tasks/T136A.s"
 	@echo "... testrunner/main.o"
 	@echo "... testrunner/main.i"
 	@echo "... testrunner/main.s"

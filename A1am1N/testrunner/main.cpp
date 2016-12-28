@@ -1,4 +1,4 @@
-#include "/home/hello/Desktop/alamin/A1am1N/tasks/TaskB.cpp"
+#include "/home/hello/Desktop/alamin/A1am1N/tasks/T136A.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"5\n2 7 3 4 9\n3\n1 25 11\n", "1\n5\n3\n", true, true},
+
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -48,7 +48,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			TaskB solver;
+			T136A solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;

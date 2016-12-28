@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/hello/Desktop/alamin/A1am1N/tasks/TaskB.cpp
+/home/hello/Desktop/alamin/A1am1N/tasks/T136A.cpp
 bits/stdc++.h
 -
 
 /home/hello/Desktop/alamin/A1am1N/testrunner/main.cpp
-/home/hello/Desktop/alamin/A1am1N/tasks/TaskB.cpp
+/home/hello/Desktop/alamin/A1am1N/tasks/T136A.cpp
 -
 iostream
 -

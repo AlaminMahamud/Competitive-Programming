@@ -4,12 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hello/Desktop/alamin/A1am1N/tasks/TaskA.cpp" "/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir/tasks/TaskA.cpp.o"
-  "/home/hello/Desktop/alamin/A1am1N/tasks/TaskB.cpp" "/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir/tasks/TaskB.cpp.o"
-  "/home/hello/Desktop/alamin/A1am1N/tasks/TaskC.cpp" "/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir/tasks/TaskC.cpp.o"
-  "/home/hello/Desktop/alamin/A1am1N/tasks/TaskD.cpp" "/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir/tasks/TaskD.cpp.o"
-  "/home/hello/Desktop/alamin/A1am1N/tasks/TaskE.cpp" "/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir/tasks/TaskE.cpp.o"
-  "/home/hello/Desktop/alamin/A1am1N/tasks/TaskF.cpp" "/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir/tasks/TaskF.cpp.o"
+  "/home/hello/Desktop/alamin/A1am1N/tasks/T136A.cpp" "/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir/tasks/T136A.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+
+
+
+int main(){
+
+  int a[] = {1,2 ,10000,2, 200};
+
+  cout << maxi(a,5) << endl;
+
+  
+}

@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int sanitize(int i, int j,  int l, string &s){
+  if(i == l) return j;
+  if((s[i] >= 'A' && s[i] <= 'Z') || (s[i] >= 'a' && s[i] <= 'z') || (s[i] >= '0' && s[i] <= '9')){
+    if(i != j){
+      s[j++] = s[i];
+      s[i] = '*';
+    }
+    else{
+      s[j++] = s[i];      
+    }    
+  }
+  
+  return sanitize(i+1, j, l, s);
+}
+
+bool rec(int L, int H, string &s){
+ 
+}
+
+   int main(){
+  string s;
+  cin >> s;
+  int length = s.length();
+  int j = sanitize(0, 0, length,s);
+  for(int i = 0; i < j; i++){
+    cout << s[i];
+  }
+  cout << endl;
+  rec(0, length, s);
+  return 0;
+}

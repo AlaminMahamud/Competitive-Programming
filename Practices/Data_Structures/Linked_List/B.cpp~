@@ -1,0 +1,16 @@
+#include <cstdio>
+#include <cstdlib>
+
+struct Node {
+  int D;
+  struct Node * next;
+};
+
+void addNode_in_first(int d, struct Node* head){
+  struct Node * h = (struct Node * ) malloc(sizeof(struct Node*));
+}
+
+int main(){
+  
+
+}

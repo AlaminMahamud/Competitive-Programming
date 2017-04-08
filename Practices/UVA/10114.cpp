@@ -1,35 +1,37 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <cstdio>
 
 int main(){
-    //freeopen('test.txt', "r", stdin);
-    while(1){
-        int duration, records;
-        double installments, loan;
-        cin >> duration;
-        if(duration<0) break;
-        cin >> installments>> loan>> records;
-        double rates[duration];
-        memset(rates, 0.00, sizeof(rates));
-        int month;
-        double rate;
-        while(records-->0){
-            cin>>month>>rate;
-            for(int i=month;i<duration;i++)
-                rates[i] = rate;
-        }
+  while(1){
 
-        double car = loan + installments;
-        int i=0;
-        car -= (car*rates[i++]);
+    int A;
+    double B, C;
+    int D;
 
-        while(car<loan){
-            loan -= installments;
-            car -= (car*rates[i++]);
-        }
-        if((i)==1) cout << "1 month" <<endl;
-        else 
-            cout << i << " months" << endl;
+    cin >> A >> B >> C >> D;
+
+    if(A == -1) break;
+    
+    int M[D];
+
+    for(int i = 0; i < D; i++){
+      double DD;
+      cin >> DD;
+      M[i] = DD;
     }
-    return 0;
+    
+    double car = C + B;
+    double loan = C;
+    int months = 0;
+
+    double depreciation_rate = -1'
+    
+    for(int i = 0; loan > car ; i++)
+      {
+	
+	loan -= B;
+	car -= 
+      }
+    
+  }
+
 }

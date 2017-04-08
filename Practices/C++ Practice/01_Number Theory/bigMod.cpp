@@ -37,4 +37,4 @@ int main()
         cout << big(2,i) << "\t";
     }
     return 0;
-}
+

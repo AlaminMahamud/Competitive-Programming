@@ -9,13 +9,15 @@ bool isalnumm(char c){
 
 bool rec(int L, int H, string &s){
   if(L > H) return true;
-  if(!isalnumm(s[L]) && !isalnumm(s[H])) rec(L+1, H-1, s);
-  else if(!isalnumm(s[L]) rec(L+1, H, s);
-  else if(!isalnumm(s[H]) rec(L, H-1, s);
-	  else{
-	    if(s[L] == s[H]) rec(L+1, H-1, s);
-	    else return false;
-	  }
+  if(!isalnumm(s[L]) && !isalnumm(s[H]))
+    rec(L+1, H-1, s);
+  else if(!isalnumm(s[L]))
+    rec(L+1, H, s);
+  else if(!isalnumm(s[H])) rec(L, H-1, s);
+  else{
+    if(s[L] == s[H]) rec(L+1, H-1, s);
+    else return false;
+   }
 }
 
    int main(){

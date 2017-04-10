@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+  while(1){
+    int duration;
+    cin >> duration;
+    if(duration < 0)break;
+    double down, loan;
+    int dep;
+    cin >> down >> loan >> dep;
+    double d[dep];
+    for(int i = 0; i < dep; i++){
+      
+
+    }
+
+  }
+
+
+
+  return 0;
+}

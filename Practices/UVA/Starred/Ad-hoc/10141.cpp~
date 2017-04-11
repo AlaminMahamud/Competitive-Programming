@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct proposal{
+  string s;
+  double p;
+  int r;
+};
+
+struct comp{
+  inline bool operator()(const proposal& str1, const proposal& str2){
+    if(str1.r > str2.r) return true;
+    else if(str1.r < str2.r) return false;
+    else if(str1.r == str2.r){
+      if(str1.p <= str2.p) return true;
+      else return false;
+    }
+  }
+
+};
+int main(){
+  int n, p;
+  int z = 1;
+  while(1){
+    cin >> n >> p;
+    if(n==0 && p == 0) break;
+    string st;
+    getline(cin,st);
+    vector< proposal > v;
+    for(int i = 0; i < n; i++){
+      string s;
+      getline(cin, s);
+      //cout << i << "=>" << s << endl;
+    }
+    // done p
+    //cout << "Done P " <<endl;
+    for(int j = 0; j < p; j++){
+      string ss;
+      double pp;
+      int qq;
+      if(j==0) getline(cin,ss);
+      getline(cin,ss);
+      cin >> pp >> qq;
+      
+      proposal p0;
+      p0.s = ss;
+      p0.p = pp;
+      p0.r = qq;
+      
+      v.push_back(p0);
+      cout << v[j].s <<endl;
+    }
+    sort(v.begin(),v.end(),comp());
+    cout << "RFP #" << z++ <<endl;
+    cout << v[0].s << endl;
+    if((z-1)%2!=0){      
+      cout << endl;
+    }
+  }
+}

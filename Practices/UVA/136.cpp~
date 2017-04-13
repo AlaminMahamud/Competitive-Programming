@@ -1,0 +1,8 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+  int a[1505];
+  cout << "The 1500'th ugly number is " << <number> <<"." << endl;
+  return 0;
+}

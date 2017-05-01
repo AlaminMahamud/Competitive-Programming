@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+  int n;
+  while(cin >> n && n){
+    int M[n+1][n+1];
+    n++;
+
+    // for every spin insert i
+    for(int spin = 1; ; spin++){
+      for(int i = 1; i < n; i++){
+	for(int j = 1; j < n; j++){
+	  M[i][j] = spin; 
+	}
+      }
+    }
+    
+    for(int i = 1; i < n; i++){
+      for(int j = 1; j < n; j++){
+	if(j!=1)cout << " ";
+	cout << right << setw(3) << M[i][j];
+      }
+      cout << endl;
+    }
+    cout << endl;
+  }
+  return 0;
+}

@@ -1,0 +1,35 @@
+#+TITLE: How To Prepare For ACM - ICPC
+ACM ICPC(Association for Computing Machinery - International Collegiate Programming Contest) is a world-wide annual multi-tiered programming contest being organized for over thirteen years. The contest is sponsored by IBM.
+
+This article focuses on what all topics that are important for the competitive programming and should especially be studied in order to train yourself for upcoming ACM-ICPC contest.
+
+* Rules of the Contest
+World final Rules 
+* Indian Participants
+Codechef conducts all the Indian Regionals. 
+* ICPC for Schools by CodeChef
+This Competition serves as a gateway forthe school students to participate in ACM ICPC contest along with ICPC college participants held across India. It is an idea conceived by CodeChef and supported by Amrita University.
+* A Sample ICPC Problem
+** Problem Statement: describing the problem and what output is to be generated.
+** Input: Make sure that you read this section with complete attention as missing out any minor detail may land you in wrong answer zone.
+** Output: Just like aboce, this one also should be read carefully.
+** Constraints: These can include constraints on input, time, memory, code size, etc.
+** Time Limit: See if your algorithm can work in this range. If not, time to change it!
+** Memory Limit: If you are fond of allocating memory for every small thing, it's a good time that you changed it.
+* Preparing For ACM-ICPC
+** First and Foremost Step: Practic
+   Following are the resources that can be referred for practicing the ACM-ICPC alike contests and problems. For all these OJs, begin with the problems with maximum submissions and check other solutions to check how you may improve. Do Participate in their monthly contests to remain up to the mark.
+   + ACM-ICPC Past Problems - ICPC archive, Practice at CodeChef
+   + TopCoder - Proceed by increasing problem levels gradually
+   + Codeforces - List of Problem Sets
+   + CodeChef - Beginners can start with Codechef Beginners and proceed further
+   + SPOJ - Move from easy to tough problems
+   + USACO - Excellent training resource
+   + UVa Online Judge - Huge repository of problems
+   + Hackerrank - Practice Problems topic wise and participate in preparatory series
+   + Hackerearth - Participate in preparatory series
+   + Practice - Good for Beginners. Has problems ranging from difficulty level School to hard.
+   + List of various Competitive Programming Contests available online all through the year.
+* What to study?
+
+

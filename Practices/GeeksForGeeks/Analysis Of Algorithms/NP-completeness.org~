@@ -1,0 +1,3 @@
+#+TITLE: pseudo_polynomial
+an algorithm whose worst case time complexity depends on numeric value of input (not number of inputs) is called pseudo-polynomial algorithm.
+otherwise polynomial algorithm.

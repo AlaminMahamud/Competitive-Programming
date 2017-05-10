@@ -1,5 +1,0 @@
-/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/test.dir
-/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/testrunner.dir
-/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hello/Desktop/alamin/A1am1N/cmake-build-debug/CMakeFiles/output.dir

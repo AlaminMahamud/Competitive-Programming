@@ -1,0 +1,9 @@
+#+TITLE: Asymptotic Analysis
+* Analysis of Algorithms
+** Why Performance ?
+Performance is like a currency; through which you can buy all the stuffs you cherished for.
+** Given two algorithm for a task, how do we find out which one is better?
+** Asymptotic Analysis:
+In asymptotic analysis we evaluate the performance of an algorithm in terms of input size.
+We calculate how does the time (or space) taken by an algorithm increases with the input size.
+** Does Asymptotic analysis always work?

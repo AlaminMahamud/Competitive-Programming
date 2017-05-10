@@ -1,0 +1,38 @@
+#+TITLE: Introduction to Algorithms
+
+* GETTING STARTED
+** Insertion Sort
+#+BEGIN_SRC c++
+  #include <iostream>
+  using namespace std;
+
+  int n;
+
+  void swap(int *a, int *b){
+    int temp = *a;
+    ,*a = *b;
+    ,*b = temp;
+  }
+
+  void sort(int a[]){
+    for(int j = 2; j < n; j++){
+      for(int i = 0; i < j; i++){
+        if(a[i] > a[j])
+          swap(&a[i], &a[j]);
+      }
+    }
+  }
+
+  void print(int a[]){
+    for(int i = 0; i < n; i++){
+      cout << a[i] << endl;
+    }
+  }
+
+  int main(){
+    int a[] = {1, 10, 9, 8};
+    n = 4;
+    sort(a);
+    print(a);
+  }
+#+END_SRC

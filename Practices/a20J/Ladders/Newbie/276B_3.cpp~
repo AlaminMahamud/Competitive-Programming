@@ -1,0 +1,9 @@
+// In the Name of God
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+  int a[26], b;
+
+  return 0;
+}

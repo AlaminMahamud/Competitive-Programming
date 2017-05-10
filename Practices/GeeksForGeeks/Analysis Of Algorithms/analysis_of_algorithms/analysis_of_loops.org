@@ -1,0 +1,9 @@
+#+TITLE: analysis_of_loops
+* O(1)
+* O(n)
+* O(n^c)
+* O(logn)
+if the loop variable is divided/multiplied by constant amount of times.
+* O(LogLogn)
+if the loop variable is reduced/increased exponentially by a constant amount.
+* How to combine time complexities of consecutive loops?

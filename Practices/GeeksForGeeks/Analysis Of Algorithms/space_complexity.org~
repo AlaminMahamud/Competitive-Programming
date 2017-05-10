@@ -1,0 +1,8 @@
+#+TITLE: amortized_analysis
+amortized analysis is used for algorithms where an occasional operation is very slow, but most of the other operations are faster.
+In amortized analysis, we analyze a sequence of operations and gurantee a worst case average time which is lower than the worst case time of a particular expensive operation.
+
+* Example:
++ Hash Tables
++ Disjoint Sets
++ Splay Trees

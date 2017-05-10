@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+// struct node
+struct node{
+
+  int data;
+  struct node* next = NULL;
+
+};
+int main(){
+  
+  return 0;
+}

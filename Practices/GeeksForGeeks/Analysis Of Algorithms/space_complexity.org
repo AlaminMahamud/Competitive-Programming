@@ -1,0 +1,2 @@
+#+TITLE: space_complexity
+space complexity of an algorithm is total space taken by the algorithm with respect to the input size.

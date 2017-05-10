@@ -1,0 +1,17 @@
+#+TITLE: NP-completeness
+* can all computation problems be solved by a computer.
+NP Complete Problems are a failure story of Computer Science. NP Complete problems are problems 
+whose status is unknown. No polynomial time algorithm has yet been discovered for any NP Complete Problem, nor has anybody yet been able
+to probe that no polynomial-time algorithm exist for any of them. The interesting part is, if any one of the NP complete problems can be 
+solved in polynomial time, then all of them can be solved.
+* P 
+can be solved by a deterministic turing machine.
+* NP 
+set of decision problems can be solved by Non-deterministic turing Machine in polynomial time.
+P < NP;
+* NP-Complete
+hardest problems in NP-Set.
+a problem L is NP-complete if:
+1. L is in NP
+   Any given solution for NP-Complete can be verified quickly, but there is no efficient known solution.
+2. every problem in NP is reducible to L in polynomial time.

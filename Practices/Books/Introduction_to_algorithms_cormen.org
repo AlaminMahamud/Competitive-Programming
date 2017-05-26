@@ -1,0 +1,23 @@
+#+TITLE: Introduction to algorithms - Cormen
+* Foundations => May - 26 - 2017
+** Introduciton
+*** Algorithm
+*** Algorithms as a technology
+** Getting Started
+*** Insertion Sort
+*** Analyzing Algorithms
+*** Designing Algorithms
+** Growth Of funcitons
+*** Asymptotic Notation
+*** Standard Notations and common funcitons
+** Divide and conquer
+*** The maximum subarray problem
+*** Strassen's algorithm for matrix multiplication
+*** The substituition method for solving recurrences
+*** The master method for solving recurrences
+*** Proof of the master theorem
+** Probabilistic analysis and randomized algorithms
+*** Thi hiring problem
+*** Indicator random variables
+*** Randomized algorithms
+*** Probablistic analysis and further uses of indicator random variables.

@@ -1,7 +1,0 @@
-C:\Users\USER\Desktop\alamin\SPOJ\FACT\FACT\bin\Debug\FACT.exe.config
-C:\Users\USER\Desktop\alamin\SPOJ\FACT\FACT\obj\Debug\FACT.csprojResolveAssemblyReference.cache
-C:\Users\USER\Desktop\alamin\SPOJ\FACT\FACT\bin\Debug\FACT.exe
-C:\Users\USER\Desktop\alamin\SPOJ\FACT\FACT\bin\Debug\FACT.pdb
-C:\Users\USER\Desktop\alamin\SPOJ\FACT\FACT\bin\Debug\BigInteger.dll
-C:\Users\USER\Desktop\alamin\SPOJ\FACT\FACT\obj\Debug\FACT.exe
-C:\Users\USER\Desktop\alamin\SPOJ\FACT\FACT\obj\Debug\FACT.pdb

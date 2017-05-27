@@ -38,3 +38,5 @@
 *.json
 *.txt
 *.xml
+*.doc
+*.jar

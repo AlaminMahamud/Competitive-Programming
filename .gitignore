@@ -33,5 +33,8 @@
 
 # ignore other html files
 *.html
+*.htm
 *.js
 *.json
+*.txt
+*.xml

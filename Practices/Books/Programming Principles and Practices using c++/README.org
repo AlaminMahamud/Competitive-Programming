@@ -1,0 +1,9 @@
+#+TITLE: Programming: Principles and practices using c++
+Author - Bjarne Stroustrup.
+Date - May - 27 - 2017
+
+* Introduction
+** Notes to the reader
+hurry slowly - festina lente.
+* Basic Fascilities
+* Abstraction Mechanisms

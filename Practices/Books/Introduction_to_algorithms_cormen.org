@@ -10,7 +10,11 @@
 ** Growth Of funcitons
 *** Asymptotic Notation
 *** Standard Notations and common funcitons
-** Divide and conquer
+** DONE Divide and conquer
+   CLOSED: [2017-05-27 Sat 18:15]
+   :LOGBOOK:
+   - State "DONE"       from ""           [2017-05-27 Sat 18:15]
+   :END:
 *** The maximum subarray problem
 #+BEGIN_SRC c++
   #include <bits/stdc++.h>
@@ -112,7 +116,7 @@
 *** The master method for solving recurrences
 *** Proof of the master theorem
 ** Probabilistic analysis and randomized algorithms
-*** Thi hiring problem
+*** The hiring problem
 *** Indicator random variables
 *** Randomized algorithms
 *** Probablistic analysis and further uses of indicator random variables.

@@ -1,14 +1,15 @@
-#+TITLE: Binary Tree | Set 1 (Introduction)
+#+TITLE: Binary Tree
+* Binary Tree Set 1 Introduction
 *Trees*: Unlike Arrays, Linked Lists, Stack and queues, which are linear data structures,
 trees are hierarchical data structures.
 
 *Tree vocabulary*: The topmost node is called root of the tree. The elements that are directly under an element are called its children. The element directly  above somethings is called its parent. For example, a is a child of f.
 
-* Why Trees?
-* Main applications of trees include
-* Binary Tree
+** Why Trees?
+** Main applications of trees include
+** Binary Tree
 A tree whose elements have at most 2 children is called binary tree. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
-* Binary Tree representation in C
+** Binary Tree representation in C
 
 #+BEGIN_SRC c++
 #include <cstdio>
@@ -88,4 +89,10 @@ return 0;
 #+END_SRC
 
 #+RESULTS:
+| 1 |
+| 2 |
+| 4 |
+| 3 |
+
+
 

@@ -102,3 +102,7 @@ return 0;
 ceil(log2(N+1))
 
 * Binary Tree Kinds
+* Handshaking Lemma and Interesting Tree Properties
+* Enumeration of Binary Trees
+* Applications of tree data structure
+* Tree Traversals

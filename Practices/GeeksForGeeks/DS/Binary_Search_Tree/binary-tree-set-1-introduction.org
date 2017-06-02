@@ -94,7 +94,6 @@ return 0;
 | 4 |
 | 3 |
 
-
 * Binary Tree | Set 2 (Properties)
 1. The maximum number of nodes at level 'l' of a binary tree is 2^(l-1)
 2. Maximum number of nodes in a binary tree of height 'h' is 2^h -1
@@ -250,6 +249,141 @@ return 0;
 |               3 |
 |               1 |
 
-
 * BFS vs DFS for Binary Tree
 * Level Order Tree Traversal
+#+BEGIN_SRC cpp
+    // Recursive C program for level order traversal of Binary tree
+    #include  <bits/stdc++.h>
+    using namespace std;
+
+
+    // A binary tree node has data, pointer to left child
+    // and pointer to right child 
+    struct node{
+    int data;
+    struct node * left;
+    struct node * right;
+    };
+
+   struct node * newNode(int data){
+      struct node * temp = (struct node * ) malloc(sizeof(struct node));
+      temp->data = data;
+      temp->left = NULL;
+      temp->right = NULL;
+      return temp;
+    }
+
+    int height(struct node * root){
+      if(root==NULL) return 0;
+      int left = height(root->left);
+      int right = height(root->right);
+      if(left > right) return left+1;
+      else return right+1;
+    }
+
+    void printGivenLevel(struct node * root, int level){
+      if (root == NULL)
+        return;
+      if(level==1){
+        cout << root->data << endl;
+      }
+      else{
+        printGivenLevel(root->left, level-1);
+        printGivenLevel(root->right, level-1);
+      }
+    }
+
+
+    void printLevelOrder(struct node * root){
+      int h = height(root)+1;
+      for(int i = 1; i < h; i++)
+        printGivenLevel(root, i);
+    }
+
+    int main(){
+      struct node * root = newNode(1);
+      root->left = newNode(2);
+      root->right = newNode(3);
+      root->left->left = newNode(4);
+      root->left->right = newNode(5);
+  cout << "OK" << endl;
+      printLevelOrder(root);
+    }
+
+   
+#+END_SRC
+
+#+RESULTS:
+| OK |
+|  1 |
+|  2 |
+|  3 |
+|  4 |
+|  5 |
+
+#+BEGIN_SRC cpp
+  #include <stdio.h>
+  #include <stdlib.h>
+
+  struct node{
+    int data;
+    struct node * left;
+    struct node * right;
+  };
+
+  struct node * newNode(int data){
+    struct node * temp = (struct node*) malloc(sizeof(struct node));
+    temp->data = data;
+    temp->left = temp->right = NULL;
+    return temp;
+  }
+
+  int height(struct node * temp){
+    if (temp == NULL) return 0;
+    int le = height(temp->left);
+    int ri = height(temp->right);
+    if(le > ri) return le+1;
+    else return ri+1;
+  }
+
+  void levelByLevelTraversal(struct node * node, int level){
+    if(node == NULL) return;
+    if(level == 1)
+      printf("%d\n", node->data);
+    else{
+      levelByLevelTraversal(node->left, level-1);
+      levelByLevelTraversal(node->right, level-1);
+    }
+  }
+
+  void levelOrderTraversal(struct node * root){
+    int h = height(root) + 1;
+   
+    int i;
+    for(i = 1; i < h; i++)
+      levelByLevelTraversal(root, i);
+  }
+
+  int main(){
+    struct node * root = newNode(1);
+    root->left = newNode(2);
+    root->right = newNode(3);
+    root->left->left = newNode(4);
+    root->left->right = newNode(5);
+   
+    levelOrderTraversal(root);
+  }
+#+END_SRC
+
+#+RESULTS:
+| 1 |
+| 2 |
+| 3 |
+| 4 |
+| 5 |
+
+#+BEGIN_SRC cpp
+// level order traversal using Queue.
+
+
+#+END_SRC

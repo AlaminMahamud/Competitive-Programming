@@ -391,3 +391,47 @@ int main(){
 }
 
 #+END_SRC
+** Counting Sort
+#+BEGIN_SRC cpp
+  #include <bits/stdc++.h>
+  using namespace std;
+
+  int main(){
+    int A[10] = {5,4,3,2,1,5,4,3,2,1};
+    int C[6];
+    memset(C, 0, sizeof(C));
+    for(int i = 0; i < 10; i++)
+      C[A[i]]++;
+    for(int i = 1; i < 6; i++)
+      C[i] += C[i-1];
+
+    int B[11];
+    for(int i = 0; i < 10; i++){
+      B[C[A[i]]] = A[i];
+      C[A[i]]--;
+    }
+
+    for(int i = 0; i < 11; i++){
+      A[i] = B[i];
+    }
+
+    free(B);
+    free(C);
+
+    for(int i = 1; i < 11; i++)
+      cout << A[i] << endl;
+  }
+#+END_SRC
+
+#+RESULTS:
+|       1 |
+|       1 |
+|       2 |
+|       2 |
+|       3 |
+|       3 |
+|       4 |
+|       4 |
+|       5 |
+| 4286144 |
+

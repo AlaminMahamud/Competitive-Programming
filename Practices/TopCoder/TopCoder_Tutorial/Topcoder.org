@@ -11,3 +11,36 @@ O(N^2).
 ** Random Algorithms
 ** Compression
 * How to Dissect a Topcoder Problem Statement.
+* How to find a Solution
+* Planning an Approach to a Topcoder Problem:
+* Mathematics for Topcoders.
+* Geometry Concepts
+* Introduction to Graphs and Their Data Structures:
+* Greedy is good
+* Dynamic Programming from Novice To Advanced
+* Computational Complexity
+* Using Regular Expressions
+* Understanding Probabilities
+* Data Structures
+* Sorting
+* Maximum Flow
+* Representation of Integers and Reals
+* Binary Search
+* A bit of fun: fun with bits
+* Range Minimum Query and Lowest Common Ancestor.
+* Power up C++ with the Standard Template Library
+* Prime Numbers, Factorization And Euler Functions.
+* Line Sweep Algorithms
+* Minimum Cost Flow
+* Algorithm Games
+* Binary Indexed Trees
+* Introduction to String searching algorithms
+* Maximum Flow: Augmenting Path Algorithms Comparison
+* Basics of Combinatorics
+* A New Approach to the Maximum Flow Problem
+* Disjoint-set Data Structures
+* Using Tries
+* An Introduction to Multidimensional Databases
+* The Best Questions for Would be C++ Programmers
+* Primality Testing: Non-deterministic Algorithms
+* Assigment Problem and Hungarian Algorithm

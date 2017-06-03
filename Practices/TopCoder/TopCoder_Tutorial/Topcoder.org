@@ -1,3 +1,13 @@
 #+TITLE: Topcoder Tutorials
 * The importance of algorithms
 ** Introduction
+** Runtime analysis
+Since the exact speed of an algorithm depends on where the algorithm will run, as well as the exact details of its implementation,
+computer scientists typically talk about the runtime relative to the size of the input. For example, if the input consists of N integers, an algorithm might have a runtime proportional to N^2, represented as
+O(N^2). 
+** Shorting
+** Shortest Path.
+** Approximate Algorithms
+** Random Algorithms
+** Compression
+* How to Dissect a Topcoder Problem Statement.

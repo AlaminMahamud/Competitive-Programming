@@ -29,7 +29,7 @@ To take a stand
 Everybody
 Come take my hand (come take my hand)
 We'll walk this road together, through the storm
-Whatever weather, cold or warm
+Whatever weather, cold or wanrm
 Just letting you know that you're not alone
 Holler if you feel like you've been down the same road (same road)
 
@@ -283,9 +283,9 @@ int main(){
 		//READ("in");
 		//WRITE("out");
 
-		int n;
-		cin >> n;
-		cout << n << endl;
-		return 0;
+  int S = 40;
+  S &= -S;
+  cout << S << endl;
+  return 0;
 }
 /********  Main() Ends Here *************/
